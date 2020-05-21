@@ -1,0 +1,7 @@
+<h1>Cocktails</h1>
+
+<ul>
+  <% @cocktails.each do |cocktail| %>
+  <%= link_to new_cocktail_dose,  <li><strong><%= cocktail.name.capitalize %></strong></li>%>
+  <% end %>
+</ul>
