@@ -8,15 +8,69 @@
 
 <div class="container">
   <div class="row">
-    <% @cocktails.each do |cocktail| %>
       <div class="col-12 col-md-6 col-lg-3">
-        <div class="card" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('https://source.unsplash.com/500x400/?cocktail');">
+        <div class="card" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('mojito.jpeg');">
           <div class="card-description">
-            <h2><%= cocktail.name %></h2>
+            <h2>Mojito</h2>
           </div>
-          <%= link_to "", cocktail_path(cocktail), class: 'card-link' %>
+          <a class="card-link" href="/cocktails/1"></a>
         </div>
       </div>
-    <% end %>
+      <div class="col-12 col-md-6 col-lg-3">
+        <div class="card" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('bloody mary.jpeg');">
+          <div class="card-description">
+            <h2>Bloody Mary</h2>
+          </div>
+          <a class="card-link" href="/cocktails/2"></a>
+        </div>
+      </div>
+      <div class="col-12 col-md-6 col-lg-3">
+        <div class="card" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('sex on the beach.jpeg');">
+          <div class="card-description">
+            <h2>Sex on the beach</h2>
+          </div>
+          <a class="card-link" href="/cocktails/3"></a>
+        </div>
+      </div>
+      <div class="col-12 col-md-6 col-lg-3">
+        <div class="card" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('margarita.jpeg');">
+          <div class="card-description">
+            <h2>Margarita</h2>
+          </div>
+          <a class="card-link" href="/cocktails/4"></a>
+        </div>
+      </div>
+      <div class="col-12 col-md-6 col-lg-3">
+        <div class="card" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('pina colada.jpeg');">
+          <div class="card-description">
+            <h2>Pina Colada</h2>
+          </div>
+          <a class="card-link" href="/cocktails/5"></a>
+        </div>
+      </div>
+      <div class="col-12 col-md-6 col-lg-3">
+        <div class="card" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('moscow mule.jpeg');">
+          <div class="card-description">
+            <h2>Moscow Mule</h2>
+          </div>
+          <a class="card-link" href="/cocktails/6"></a>
+        </div>
+      </div>
+      <div class="col-12 col-md-6 col-lg-3">
+        <div class="card" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('vodka lemon.jpeg');">
+          <div class="card-description">
+            <h2>Vodka lemon</h2>
+          </div>
+          <a class="card-link" href="/cocktails/7"></a>
+        </div>
+      </div>
+      <div class="col-12 col-md-6 col-lg-3">
+        <div class="card" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('aperol.jpeg');">
+          <div class="card-description">
+            <h2>Aperol Spritz</h2>
+          </div>
+          <a class="card-link" href="/cocktails/8"></a>
+        </div>
+      </div>
   </div>
 </div>
